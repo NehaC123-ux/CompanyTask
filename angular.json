@@ -82,9 +82,9 @@
               "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
+           "assets": [
+                 "src/assets",
+                 "src/favicon.ico"
             ],
             "styles": [
               "src/styles.css"

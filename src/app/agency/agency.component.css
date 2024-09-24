@@ -1,0 +1,277 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  padding: 1rem 1rem;
+  
+}
+.navbar-brand {
+  font-weight: bold;
+ 
+}
+.navbar-nav .nav-link {
+  margin-right: 20px;
+  font-weight: 500;
+  color: rgba(22, 28, 45, 1);
+
+
+}
+.btn-primary-custom {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 6px;
+  width: 220px;
+    height: 59px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+
+.main {
+  background-image: url("src/assets/images/Bitmap.png");
+}
+.hero-section {
+  padding: 60px 0;
+  /* background-image: url("src/assets/Bitmap.png"); */
+}
+.hero-title {
+    width: 541px;
+    height: 130px;
+    top: 41px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: -2px;
+    text-align: left;
+    color: rgba(22, 28, 45, 1);
+
+}
+.hero-text {
+    width: 500px;
+    height: 96px;
+    top: 196px;
+    gap: 0px;
+    opacity: 0.7px;
+    font-family: Gilroy;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: rgba(22, 28, 45, 1);
+        
+}
+.hero-section h6{
+  color: rgba(246, 75, 75, 1);
+
+}
+
+
+.services
+ {
+
+  width: 1161.86px;
+  height: 751.23px;  
+  gap: 0px;
+  opacity: 0px;
+  text-align: center;
+  margin: 0 auto;
+   
+}
+#title{
+  width: 589px;
+  height: 135px;
+  top: 949px;
+  left: 533px;
+  gap: 0px;
+  opacity: 0px;
+  margin: 0 auto;
+
+}
+.mb-4{
+  font-family: Gilroy;
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -1.2000000476837158px;
+text-align: center;
+color: rgba(22, 28, 45, 1);
+
+}
+
+.card {
+  border-radius: 20px; 
+}
+ .card img{
+  border: 0px solid blue;
+  border-radius: 20px;
+ }
+ .testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #f9f9f9; 
+}
+
+.testimonial-card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+}
+
+
+.testimonial-content {
+  text-align: left;
+}
+
+.testimonial-rating {
+  color: #ffcc00; /* Star rating color */
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #161c2d;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  line-height: 1.5;
+}
+
+.testimonial-author {
+  font-size: 14px;
+  font-weight: bold;
+  color: #161c2d;
+}
+
+.testimonial-author span {
+  font-weight: normal;
+  color: #777;
+}
+
+
+
+.about {
+  width: 1110px;
+height: 883px;
+top: 2191px;
+left: 245px;
+gap: 0px;
+opacity: 0px;
+display: flex;
+
+
+}
+
+.text-about h5{
+  width: 83px;
+  height: 16px;
+  top: -2px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Gilroy;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.72px;
+  letter-spacing: 1.625px;
+  text-align: left;
+  color: rgba(246, 75, 75, 1);
+    
+}
+.text-about h1 {
+ 
+  width: 515px;
+height: 198px;
+top: 2191px;
+left: 245px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+
+.text-about p {
+  width: 490px;
+  height: 116px;
+  top: 2874px;
+  left: 785px;
+  gap: 0px;
+  opacity: 0.7px;
+  font-family: Gilroy;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: rgba(22, 28, 45, 1);
+}
+
+.image-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* .image-wrapper {
+  position: relative;
+} */
+
+.image-wrapper.large img {
+  width: 445px;
+  height: 565px;
+  top: 2509px;
+  left: 245px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+
+}
+
+.image-wrapper.medium img {
+  width: 318px;
+height: 332px;
+top: 2442px;
+left: 785px;
+gap: 0px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+.image-wrapper.small img {
+  width: 160px;
+height: 167px;
+top: 2555px;
+left: 1195px;
+gap: 0px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

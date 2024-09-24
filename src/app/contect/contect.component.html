@@ -1,0 +1,105 @@
+
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <h1>Contact CRUD</h1>
+      <form class="d-flex">
+        <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success">Add Contact</button>
+      </form>
+    </div>
+  </nav>
+
+  
+<table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">FirstName</th>
+            <th scope="col">LastName</th>
+            <th scope="col">Email</th>
+            <th scope="col">Age</th>
+            <th scope="col">Gender</th>
+            <th scope="col">MobileNo</th>
+            <th scope="col">PanNO</th>
+            <th scope="col">AdharNO</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of data">
+            <td>{{item.first_name}}</td>
+            <td>{{item.last_name}}</td>
+            <td>{{item.emailId}}</td>
+            <td>{{item.age}}</td>
+            <td>{{item.gender}}</td>
+            <td>{{item.mobilenumber}}</td>
+            <td>{{item.pan_no}}</td>
+            <td>{{item.adhaar_no}}</td>
+            <td>
+                <button class="btn btn-primary">Edit</button>
+                <button class="btn btn-danger">Delete</button>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+
+      <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Contact</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form class="row g-3 needs-validation"  [formGroup]="firstDemo" (ngSubmit)="clickPostData()" novalidate>
+                <div class="col-md-6">
+                  <label for="validationCustom01" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="validationCustom01" formControlName="FirstName" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom01" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="validationCustom01" formControlName="LastName" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom01" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="validationCustom01" formControlName="Email" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom01" class="form-label">Age</label>
+                    <input type="text" class="form-control" id="validationCustom01" formControlName="Age" required>
+                  </div>
+                <div class="col-md-6">
+                  <label for="validationCustom02" class="form-label">Gender</label>
+                  <input type="text" class="form-control" id="validationCustom02" formControlName="Gender" required>
+                </div>
+              
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label">MobileNO</label>
+                  <input type="text" class="form-control" id="validationCustom03" formControlName="MobileNO" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">PhoneNo</label>
+                    <input type="text" class="form-control" id="validationCustom03" formControlName="PhoneNo" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">AdharNo</label>
+                    <input type="text" class="form-control" id="validationCustom03" formControlName="AdharNo" required>
+                  </div>
+                 
+                <!-- <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </div> -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                  </div>
+              </form>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+    
